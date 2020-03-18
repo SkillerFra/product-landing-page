@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+ width: 100%;
+ height: auto;
+ display: flex;
+ align-items: center;
+ position: fixed;
+ top: 0;
+ background-color: white;
+}
+
+#header-img{
+    margin-right: 1%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.company-name{
+    font-weight: 900;
+    line-height:  30px;
+    margin-top: 1%;
+}
+
+#nav-bar{
+ align-self: flex-end;
+ margin-left: auto;
+ margin-top: 1%;
+}
+
+#nav-bar:last-of-type{
+ margin-right: 2%;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+
+#form{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.description{
+    font-size: 18px;
+}
+
+#email{
+    margin-top: 0.5%;
+    width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#submit{
+    margin-top: 0.5%;
+    color: black;
+    background-color: white;
+    padding: 2px 20px 1px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    color: white;
+    background-color: black;
+}
+
+#features{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 50px;
+}
+
+.quality{
+   padding: 10px;
+   border: 5px solid black;
+   border-radius: 20px;
+   text-align: center;
+   vertical-align: middle;
+   display: inline-block;
+}
+
+.shipping{
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.customer{
+    padding: 10px;
+   border: 5px solid black;
+   border-radius: 20px;
+   text-align: center;
+   vertical-align: middle;
+   display: inline-block;
+}
+
+.money{
+    padding: 10px;
+   border: 5px solid black;
+   border-radius: 20px;
+   text-align: center;
+   vertical-align: middle;
+   display: inline-block;
+}
+
+.quality:hover, .shipping:hover, .customer:hover, .money:hover{
+   box-shadow: 0 0 5px black;
+   border: none;
+   color: white;
+   background-color: black;
+}
+
+.youtube-video{
+    margin-top: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+
+}
+
+.video-title{
+    align-self: center;
+    margin-bottom: 1%;
+}
+
+#video{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#pricing{
+    display: flex; 
+    margin: 15% 10% 10% 10%;
+}
+
+.pricing-buttons{
+    color: black;
+    background-color: white;
+    padding: 1px 10px 1px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.pricing-buttons:hover{
+    color: white;
+    background-color: black;
+}
+
+.fa-chess-pawn, .fa-chess-knight, .fa-chess-king{
+    margin-top: 2%;
+}
+
+.metal{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.wood, .metal, .porcelain{
+    text-align: center;
+    vertical-align: middle;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.footer{
+    padding: 1% 5% 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    vertical-align: middle;
+    border-top: 2px solid black;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter{
+    color: black;
+}
+
+.footer-link{
+   text-decoration: none;
+   color: black;
+}
+
+.footer-link:hover{
+   text-decoration: underline;
+}
+
+@media(max-width: 600px){
+  #features{
+      grid-template-columns: repeat(1, 100%);
+  }
+  #pricing{
+      flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
